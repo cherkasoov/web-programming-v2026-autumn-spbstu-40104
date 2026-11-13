@@ -1,8 +1,3 @@
-/**
- * Возвращает все простые числа <= n по возрастанию (решето Эратосфена).
- * @param {number} n
- * @returns {number[]}
- */
 export function generatePrimes(n) {
   if (n < 2) {
     return [];
