@@ -22,7 +22,7 @@
 Функция экспортируется как ES module из `solution.js`:
 
 ```js
-import { findMaxSubarraySum } from './solution.js';
-
-console.log(findMaxSubarraySum([1, -2, 3, 4, -1, 2], 3));
+node -e "import('./solution.js').then(m => console.log(m.findMaxSubarraySum([1,-2,3,4,-1,2], 3)))"
 ```
+
+Ожидаемый результат: 6
