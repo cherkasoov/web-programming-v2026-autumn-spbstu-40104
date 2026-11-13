@@ -8,9 +8,9 @@
 ## Реализация
 
 Семантический header с nav и списком ссылок. Меню строится на flexbox: по
-умолчанию пункты идут в строку, а в media-запросе max-width: 768px
-направление меняется на column. Добавлены состояния hover и focus-visible.
-Все стили вынесены в styles.css, inline styles нет.
+умолчанию пункты идут в строку, а в media-запросе max-width: 768px направление
+меняется на column. Добавлены состояния hover и focus-visible. Все стили
+вынесены в styles.css, inline styles нет.
 
 ## Запуск
 

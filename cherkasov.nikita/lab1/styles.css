@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, Arial, sans-serif;
   color: #1a1a1a;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .site-header {
@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
   padding: 1rem 1.5rem;
   background-color: #1f2937;
-  color: #ffffff;
+  color: #fff;
 }
 
 .logo {
@@ -23,7 +23,7 @@ body {
   font-weight: 700;
 }
 
-.nav__list {
+.nav-list {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
@@ -32,8 +32,8 @@ body {
   padding: 0;
 }
 
-.nav__link {
-  color: #ffffff;
+.nav-link {
+  color: #fff;
   text-decoration: none;
   font-size: 1rem;
   padding: 0.25rem 0.5rem;
@@ -43,8 +43,8 @@ body {
     color 0.2s ease;
 }
 
-.nav__link:hover,
-.nav__link:focus-visible {
+.nav-link:hover,
+.nav-link:focus-visible {
   background-color: #374151;
   color: #93c5fd;
   outline: none;
@@ -65,7 +65,7 @@ body {
   margin-top: 0;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
   .site-header {
     flex-direction: column;
     align-items: stretch;
@@ -77,13 +77,13 @@ body {
     text-align: center;
   }
 
-  .nav__list {
+  .nav-list {
     flex-direction: column;
     gap: 0.25rem;
     width: 100%;
   }
 
-  .nav__link {
+  .nav-link {
     display: block;
     width: 100%;
     padding: 0.6rem 0.5rem;
